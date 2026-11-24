@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import { ArrowUpRight } from 'lucide-react';
 import Navbar from './Navbar';
 import { heroPillars, profile } from '../data/portfolioData';
 
@@ -33,8 +32,9 @@ export default function Hero() {
               <p className="mb-3 font-['Playfair_Display',serif] text-base italic tracking-wide text-[#95C93D] sm:text-lg">
                 {profile.greeting}
               </p>
-              <h1 className="font-['Inter',sans-serif] text-[1.15rem] font-bold leading-tight tracking-tight text-white sm:text-2xl lg:text-[1.75rem] xl:text-[1.95rem]">
-                Executive Assistant <span className="text-[#84B82E]">|</span> Project Manager
+              <h1 className="font-['Inter',sans-serif] text-[0.95rem] font-bold leading-tight tracking-tight text-white sm:text-xl lg:text-[1.3rem] xl:text-[1.45rem]">
+                Virtual Assistant <span className="text-[#84B82E]">|</span> Executive Assistant{' '}
+                <span className="text-[#84B82E]">|</span> Project Manager
               </h1>
 
               <p className="mt-5 max-w-xl font-['Playfair_Display',serif] text-xl font-medium leading-snug text-white/95 sm:text-2xl">
@@ -49,15 +49,6 @@ export default function Hero() {
                   <span className="h-2 w-2 animate-pulse rounded-full bg-[#84B82E]" />
                   Available • {profile.location}
                 </span>
-                <a
-                  href={profile.portfolioUrl}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="inline-flex items-center gap-1 rounded-full border border-white/15 bg-white/5 px-3.5 py-1.5 text-xs font-medium text-white/80 transition hover:border-[#84B82E]/60 hover:text-white"
-                >
-                  <span>Canva Portfolio</span>
-                  <ArrowUpRight className="h-3.5 w-3.5 text-[#84B82E]" />
-                </a>
               </div>
             </div>
 
@@ -77,7 +68,7 @@ export default function Hero() {
                   <img
                     src="/aasokaBg.png"
                     alt={profile.fullName}
-                    className="h-full w-full scale-105 object-cover object-top"
+                    className="h-full w-full scale-125 object-cover object-[50%_30%]"
                   />
                 </div>
               </div>

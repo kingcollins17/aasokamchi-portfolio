@@ -4,7 +4,6 @@ import {
   ArrowRight,
   CheckCircle2,
   Clock,
-  Globe,
   ArrowUpRight,
   Loader2,
   Mail,
@@ -56,7 +55,7 @@ export default function ContactSection() {
           from_email: form.from_email,
           email: form.from_email,
           reply_to: form.from_email,
-          subject: form.subject || 'Executive Assistant | Project Manager Inquiry',
+          subject: form.subject || 'Virtual Assistant | Executive Assistant | Project Manager Inquiry',
           message: form.message,
           to_name: profile.fullName,
         },
@@ -125,24 +124,15 @@ export default function ContactSection() {
                 </div>
               </div>
 
-              <div className="grid grid-cols-2 gap-3 pt-1">
+              <div className="pt-1">
                 <a
                   href={profile.linkedinUrl}
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-flex items-center justify-center gap-2 rounded-2xl border border-[#E3DDD2] bg-[#FAF8F5] px-4 py-3 text-xs font-semibold text-[#14241E] transition hover:border-[#84B82E] hover:bg-white"
+                  className="inline-flex w-full items-center justify-center gap-2 rounded-2xl border border-[#E3DDD2] bg-[#FAF8F5] px-4 py-3 text-xs font-semibold text-[#14241E] transition hover:border-[#84B82E] hover:bg-white"
                 >
                   <ArrowUpRight className="h-4 w-4 text-[#84B82E]" />
-                  <span>LinkedIn</span>
-                </a>
-                <a
-                  href={profile.portfolioUrl}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="inline-flex items-center justify-center gap-2 rounded-2xl border border-[#E3DDD2] bg-[#FAF8F5] px-4 py-3 text-xs font-semibold text-[#14241E] transition hover:border-[#84B82E] hover:bg-white"
-                >
-                  <Globe className="h-4 w-4 text-[#84B82E]" />
-                  <span>Canva Site</span>
+                  <span>Connect on LinkedIn</span>
                 </a>
               </div>
             </div>

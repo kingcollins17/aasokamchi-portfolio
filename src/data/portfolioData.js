@@ -1,7 +1,7 @@
 export const profile = {
   brand: 'Aasokamchi',
   fullName: 'Aasokamchi Ani',
-  role: 'Executive Assistant | Project Manager',
+  role: 'Virtual Assistant | Executive Assistant | Project Manager',
   greeting: "Hey, I'm Aasokamchi,",
   tagline: 'Great support should feel invisible.',
   heroSubtext:
@@ -16,7 +16,7 @@ export const profile = {
   aboutEyebrow: 'Behind the Operations',
   aboutHeading: 'Keeping Workflows Organized That Make Work Simpler',
   aboutDescription:
-    'Dedicated Executive Assistant and Project Manager with experience in administrative support, project coordination, and client communication across diverse industries using Google Workspace, Microsoft Office, Asana, and Zoom.',
+    'Dedicated Virtual Assistant, Executive Assistant, and Project Manager with experience in administrative support, project coordination, and client communication across diverse industries using Google Workspace, Microsoft Office, Asana, and Zoom.',
   aboutCtaLabel: "Let's Build Something Meaningful Together",
 };
 
