@@ -45,6 +45,8 @@ export default function ContactSection() {
       return;
     }
 
+
+
     try {
       await emailjs.send(
         serviceId,
@@ -58,6 +60,7 @@ export default function ContactSection() {
           subject: form.subject || 'Virtual Assistant | Executive Assistant | Project Manager Inquiry',
           message: form.message,
           to_name: profile.fullName,
+          to_email: 'aasokamchiani@gmail.com'
         },
         { publicKey }
       );
@@ -164,7 +167,7 @@ export default function ContactSection() {
                     required
                     value={form.from_name}
                     onChange={handleChange}
-                    placeholder="Jane Doe"
+                    placeholder=""
                     className="w-full rounded-2xl border border-[#DED8CD] bg-white px-4 py-3 text-sm text-[#14241E] placeholder-[#9AA19C] outline-none transition focus:border-[#84B82E] focus:ring-2 focus:ring-[#84B82E]/20"
                   />
                 </div>
