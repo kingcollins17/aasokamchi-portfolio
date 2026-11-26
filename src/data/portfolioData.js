@@ -43,8 +43,8 @@ export const organizations = [
   { name: 'PropAfric Ltd.', tag: 'Client & Content' },
   { name: 'Design Temple', tag: 'Administration' },
   { name: 'Godfrey Okoye Univ.', tag: 'Operations' },
-  { name: 'ALX Africa', tag: 'Certified VA' },
-  { name: 'Axia Africa', tag: 'Data Analysis' },
+  // { name: 'ALX Africa', tag: 'Certified VA' },
+  // { name: 'Axia Africa', tag: 'Data Analysis' },
 ];
 
 export const showcaseCards = [
